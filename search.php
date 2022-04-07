@@ -2,8 +2,15 @@
 include_once "header.php";
 //get
 // get post
+echo "<pre>";
+print_r($_GET);
+echo "</pre>";
+echo $_GET['nom'];
+echo "<br>";
+echo $_GET['email'];
+
  ?>
- <form action="result.php" method="get" class="m-5">
+ <form action="" method="get" class="m-5">
    <div class="form-row">
      <div class="form-group col-md-6 my-5">
        <input type="search" name="nom" class="form-control" id="search" placeholder="Search">
@@ -18,3 +25,6 @@ include_once "header.php";
 include_once "footer.php";
 
  ?>
+
+
+<!--  https://github.com/EcoinWebDev/web101 -->
